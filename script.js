@@ -58,7 +58,7 @@ function endGame(draw) {
     if (draw) {
         winningMessageTextElement.innerText = "Draw"
     } else {
-        winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Win`
+        winningMessageTextElement.innerText = `The ${circleTurn ? "O's" : "X's"} Win`
     }
     winningMessageElement.classList.add('show')
 }
