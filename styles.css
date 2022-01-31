@@ -162,14 +162,23 @@ body {
     position: absolute;
     bottom: 2rem;
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 500;
     color: #999;
     letter-spacing: 0.1rem;
     padding-top: 6rem;
     width: 100%;
     text-align: center;
 }
+.copyright span {
+    text-decoration: underline;
+}
 .copyright > span:hover {
     color: lightskyblue;
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 3rem;
+    }
 }
